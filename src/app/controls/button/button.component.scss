@@ -1,0 +1,16 @@
+button {
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+
+  &:hover {
+    background-color: darkblue;
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
