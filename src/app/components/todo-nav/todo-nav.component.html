@@ -1,0 +1,26 @@
+<div>
+  <p
+    (click)="changeFilter('ALL')"
+    [ngClass]="{
+      'active': this.filter === 'ALL'
+    }"
+  >
+    All
+  </p>
+  <p
+    (click)="changeFilter('TODO')"
+    [ngClass]="{
+      'active': this.filter === 'TODO'
+    }"
+  >
+    Todo
+  </p>
+  <p
+    (click)="changeFilter('COMPLETED')"
+    [ngClass]="{
+      'active': this.filter === 'COMPLETED'
+    }"
+  >
+    Completed
+  </p>
+</div>
